@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baked Bliss | Product Listing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Baked Bliss</h1>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <div class="heading">FLUFFY DELIGHTS</div>
+
+    <div class="product-listing">
+        <!-- Card 1 -->
+        <div class="product-card">
+            <img src="https://www.fnp.com/images/pr/l/v20221205202830/cream-drop-chocolate-cake-half-kg_1.jpg" alt="Chocolate Cake" />
+            <div class="product-info">
+                <h3>Classic Chocolate Cake-500gm</h3>
+                <p>Rich, moist chocolate sponge layered with creamy chocolate ganache.</p>
+                <div class="product-meta">
+                    <span><i class="fa-solid fa-users"></i> Best-seller, perfect for all occasions.</span>
+                </div>
+                <div class="price-button">
+                    <span class="price">Rs.550</span>
+                    <button onclick="addToCart('Classic Chocolate Cake', 550)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="product-card">
+            <img src="https://whipped.in/cdn/shop/files/WhatsAppImage2023-11-23at6.37.52PM_1800x1800.jpg?v=1713632631" alt="Strawberry Cake">
+            <div class="product-info">
+                <h3>Strawberry Cream Cake-500gm</h3>
+                <p>Light vanilla sponge with layers of whipped cream and fresh strawberries.</p>
+                <div class="product-meta">
+                    <span><i class="fa-solid fa-users"></i> Refreshing and fruity, great for summer.</span>
+                </div>
+                <div class="price-button">
+                    <span class="price">Rs.650</span>
+                    <button onclick="addToCart('Strawberry Cream Cake', 650)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="product-card">
+            <img src="https://annabanana.co/wp-content/uploads/2022/03/Zesty-Lemon-Cake-Feat-1.jpg" alt="Lemon Cake">
+            <div class="product-info">
+                <h3>Lemon Zest Cream Cake-500gm</h3>
+                <p>A tangy, fluffy cake made with fresh lemon juice and a zesty glaze.</p>
+                <div class="product-meta">
+                    <span><i class="fa-solid fa-users"></i> Bright, soft and fluffy delight.</span>
+                </div>
+                <div class="price-button">
+                    <span class="price">Rs.550</span>
+                    <button onclick="addToCart('Lemon Zest Cake', 550)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="product-card">
+            <img src="https://assets.winni.in/product/primary/2014/6/31158.jpeg?dpr=2&w=220" alt="Vanilla Cake">
+            <div class="product-info">
+                <h3>Classic Vanilla Delight-500gm</h3>
+                <p>Soft, creamy, timeless vanilla goodness.</p>
+                <div class="product-meta">
+                    <span><i class="fa-solid fa-users"></i> Soft, creamy, timeless vanilla goodness</span>
+                </div>
+                <div class="price-button">
+                    <span class="price">Rs.500</span>
+                    <button onclick="addToCart('Classic Vanilla Delight', 500)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>

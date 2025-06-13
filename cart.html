@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Baked Bliss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            <a href="Product.html">Products</a>
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <h2>Items in Your Cart</h2>
+        <div id="cart-items"></div>
+        <div id="total-price"></div>
+        <button onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <script src="cart.js"></script>
+    <script>
+        renderCart();
+    </script>
+</body>
+
+</html>
